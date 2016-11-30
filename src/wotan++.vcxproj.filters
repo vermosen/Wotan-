@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="interactiveBroker">
+      <UniqueIdentifier>{c05e3a8f-2186-4461-b55f-32b5ed435acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application">
+      <UniqueIdentifier>{a7e57879-1678-43a8-b862-615ead14bf31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="interactiveBroker\wrapper\wrapper.cpp">
+      <Filter>interactiveBroker</Filter>
+    </ClCompile>
+    <ClCompile Include="interactiveBroker\client\portfolioClient\portfolioClient.cpp">
+      <Filter>interactiveBroker</Filter>
+    </ClCompile>
+    <ClCompile Include="interactiveBroker\client\historicalClient\historicalClient.cpp">
+      <Filter>interactiveBroker</Filter>
+    </ClCompile>
+    <ClCompile Include="application\configuration\configuration.cpp">
+      <Filter>application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="interactiveBroker\wrapper\wrapper.hpp">
+      <Filter>interactiveBroker</Filter>
+    </ClInclude>
+    <ClInclude Include="interactiveBroker\client\portfolioClient\portfolioClient.hpp">
+      <Filter>interactiveBroker</Filter>
+    </ClInclude>
+    <ClInclude Include="interactiveBroker\client\historicalClient\historicalClient.hpp">
+      <Filter>interactiveBroker</Filter>
+    </ClInclude>
+    <ClInclude Include="application\logger\logger.hpp">
+      <Filter>application</Filter>
+    </ClInclude>
+    <ClInclude Include="application\configuration\configuration.hpp">
+      <Filter>application</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

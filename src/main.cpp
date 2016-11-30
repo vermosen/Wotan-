@@ -8,7 +8,7 @@
 
 
 #ifdef _WIN32
-	#error Unsupported environment !
+	
 #else
 	#include <signal.h>
 	#include <sys/types.h>
