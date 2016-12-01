@@ -10,34 +10,29 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="interactiveBroker\wrapper\wrapper.cpp">
-      <Filter>interactiveBroker</Filter>
-    </ClCompile>
-    <ClCompile Include="interactiveBroker\client\portfolioClient\portfolioClient.cpp">
-      <Filter>interactiveBroker</Filter>
-    </ClCompile>
-    <ClCompile Include="interactiveBroker\client\historicalClient\historicalClient.cpp">
-      <Filter>interactiveBroker</Filter>
-    </ClCompile>
     <ClCompile Include="application\configuration\configuration.cpp">
       <Filter>application</Filter>
     </ClCompile>
+    <ClCompile Include="interactiveBroker\client\client.cpp">
+      <Filter>interactiveBroker</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="application\service\winService.cpp" />
+    <ClCompile Include="application\service\daemon.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="interactiveBroker\wrapper\wrapper.hpp">
-      <Filter>interactiveBroker</Filter>
-    </ClInclude>
-    <ClInclude Include="interactiveBroker\client\portfolioClient\portfolioClient.hpp">
-      <Filter>interactiveBroker</Filter>
-    </ClInclude>
-    <ClInclude Include="interactiveBroker\client\historicalClient\historicalClient.hpp">
-      <Filter>interactiveBroker</Filter>
-    </ClInclude>
     <ClInclude Include="application\logger\logger.hpp">
       <Filter>application</Filter>
     </ClInclude>
     <ClInclude Include="application\configuration\configuration.hpp">
       <Filter>application</Filter>
     </ClInclude>
+    <ClInclude Include="interactiveBroker\client\client.hpp">
+      <Filter>interactiveBroker</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="application\service.hpp" />
+    <ClInclude Include="application\service\winService.hpp" />
+    <ClInclude Include="application\service\daemon.hpp" />
   </ItemGroup>
 </Project>

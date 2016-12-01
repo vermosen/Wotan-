@@ -4,6 +4,7 @@
  *  Created on: Sep 28, 2016
  *      Author: vermosen
  */
+#include "StdAfx.h"
 
 #include <application/configuration/configuration.hpp>
 

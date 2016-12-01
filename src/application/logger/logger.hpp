@@ -31,7 +31,7 @@ namespace wotan
 {
 	namespace logger
 	{
-		enum type : ushort
+		enum type : short
 		{
 			Debug 		= 0,
 			Info 		= 1,
